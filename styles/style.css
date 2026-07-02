@@ -1,10 +1,63 @@
+@font-face {
+    font-family: firago;
+    src: url(../fonts/firago-latin-900-normal.woff);
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     list-style-type: none;
-    background-color: #101015;
     scroll-behavior: smooth;
-    color: #fff;
+    font-family: firago;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body{
+    background-image: url(../images/oldpaperbacground\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    padding: 25px 106px 25px 100px;
+    background-image: url(../images/headerBGP.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+h1{
+    width: 150px;
+    height: 150px;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-indent: -9999999px;
+}
+h1 a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+header ul.flex{
+    gap: 50px;
+}
+header ul a{
+    font-size: 24px;
+    color: rgba(61, 54, 49, 1);
+    padding: 3px 0;
+}
+header ul a.active{
+    border-bottom: 2px solid rgba(61, 54, 49, 1);
+}
+ .navigation.flex{
+    gap: 47px;
+}
+button{
+    padding: 10px 20px;
+    font-size: 24px;
+    background-color: rgba(60, 66, 29, 1);
+    border-radius: 10px;
+    color: rgba(252, 253, 249, 1);
 }
