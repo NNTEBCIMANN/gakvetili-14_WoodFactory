@@ -1,6 +1,10 @@
 @font-face {
-    font-family: firago;
-    src: url(../fonts/firago-latin-900-normal.woff);
+    font-family: firagoS;
+    src: url(../fonts/FiraGO-SemiBold.otf);
+}
+@font-face {
+    font-family: firagoR;
+    src: url(../fonts/FiraGO-Regular.otf);
 }
 *{
     margin: 0;
@@ -9,7 +13,7 @@
     text-decoration: none;
     list-style-type: none;
     scroll-behavior: smooth;
-    font-family: firago;
+    font-family: firagoS;
 }
 .flex{
     display: flex;
@@ -60,4 +64,33 @@ button{
     background-color: rgba(60, 66, 29, 1);
     border-radius: 10px;
     color: rgba(252, 253, 249, 1);
+}
+main{
+    padding: 92px 100px 110px 100px;
+}
+.bed{
+    margin-bottom: 110px;
+}
+.bed section{
+    width: 625px;
+}
+.bed h2{
+    font-size: 32px;
+}
+.bed p{
+    font-family: firagoR;
+    font-size: 20px;
+    margin-top: 34px;
+    margin-bottom: 56px;
+}
+.bed iframe{
+    width: 500px;
+    height: 270px;
+}
+.bed button{
+    padding: 10px 46px;
+    justify-self: center;
+}
+.furniture{
+    
 }
